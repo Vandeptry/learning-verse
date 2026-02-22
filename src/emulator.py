@@ -50,8 +50,6 @@ def get_verse_files():
 
 if __name__ == "__main__":
     clear_screen()
-    
-    # Nếu chạy kèm tham số: python emulator.py <path>
     if len(sys.argv) > 1:
         target = sys.argv[1]
     else:
